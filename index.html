@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Header with Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+    <!-- Elementor Widget Container -->
+    <div class="elementor-widget-container">
+        <div class="contact-info">
+            <i class="fas fa-phone"></i> +8801838183850 <span class="dari">|</span>
+            <i class="fas fa-phone"></i> +8801783711740 <span>|</span>
+            <i class="fas fa-envelope"></i> muradhossain.web@gmail.com
+        </div>
+        <div class="extra-tools">
+            <input type="text" placeholder="Search...">
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <button id="language-switch" class="off">বাংলা</button>
+        </div>
+    </div>
+   
+    <!-- Sticky Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="স্কিল কোর্স, কুইজ, স্কুল প্রোগ্রাম সার্চ করুন...">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">হোম</a></li>
+                    <li><a href="#">আমাদের সম্পর্কে</a></li>
+                    <li><a href="#">শাখাসমূহ</a></li>
+                    <li><a href="#">কোর্সসমূহ</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <button class="login-btn">লগ-ইন</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+<section class="bner">
+    <div class="sec">
+        <h1 class="font_sty">
+            ৬ষ্ঠ-এইচএসসি শ্রেণির <br>
+            অনলাইন ব্যাচে ভর্তি চলছে!
+            <p>বছর জুড়ে অভিজ্ঞ শিক্ষকদের সাথে সম্পূর্ণ সিলেবাসের 💯 তে 💯 প্রস্তুতি!</p>
+        </h1>
+           <!-- Header Section with Class Categories -->
+           <section class="class-category-section">
+            <div class="class-category">
+                <img src="img/icon/HSC.png" alt="HSC Icon">
+                <p>HSC</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+            <div class="class-category">
+                <img src="img/icon/10.png" alt="Class 10 Icon">
+                <p>১০ম শ্রেণি</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+            <div class="class-category">
+                <img src="img/icon/9.png" alt="Class 9 Icon">
+                <p>৯ম শ্রেণি</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+            <div class="class-category">
+                <img src="img/icon/8.png" alt="Class 8 Icon">
+                <p>৮ম শ্রেণি</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+            <div class="class-category">
+                <img src="img/icon/7.png" alt="Class 7 Icon">
+                <p>৭ম শ্রেণি</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+            <div class="class-category">
+                <img src="img/icon/6.png" alt="Class 6 Icon">
+                <p>৬ষ্ঠ শ্রেণি</p>
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </div>
+        </section>
+    
+        <!-- Promo Section -->
+        <section class="promo-section">
+            <div class="promo-box">
+                <h2>HSC 26 ব্যাচের ফ্রি লাইভ ক্লাস</h2>
+                <button class="custom-btn btn-3"><span>ক্লাস বুক করুন</span></button>                
+            </div>
+            <div class="promo-box">
+                <h2>৬ষ্ঠ-৯ম শ্রেণির ফ্রি লাইভ ক্লাস</h2>
+                <button class="custom-btn btn-3"><span>ক্লাস বুক করুন</span></button>            
+            </div>
+        </section>
+        <br>
+        <br>
+    </div>
+</section>
+
+
+ 
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top">Top</button>
+
+<!--All Program  -->
+    <h2 class="allprgm">সমস্ত প্রোগ্রাম</h2> 
+    <div class="dropdowns">
+        <select name="class" id="class-dropdown">
+            <option value="all-classes">All Class</option>
+            <option value="class-1">Class 1</option>
+            <option value="class-2">Class 2</option>
+            <option value="class-3">Class 3</option>
+        </select>
+
+        <select name="program" id="program-dropdown">
+            <option value="all-programs">All Program</option>
+            <option value="medical">Medical</option>
+            <option value="engineering">Engineering</option>
+            <option value="varsity">Varsity</option>
+        </select>
+
+        <select name="type" id="type-dropdown">
+            <option value="all-types">All Type</option>
+            <option value="offline">Offline</option>
+            <option value="online">Online</option>
+            <option value="combo">Combo</option>
+        </select>
+    </div>
+
+        <section class="programs">
+        <div class="program-card">
+            <img src="img/hsc.jpg" alt="Program Image">
+            <h3>মেডিকেল + ভার্সিটি </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+
+        <div class="program-card">
+            <img src="img/ss.jpg" alt="Program Image">
+            <h3>ইঞ্জিনিয়ারিং + Biology </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+    </section>
+
+    <h2 class="allprgm">ফিচার বই</h2> 
+        <section class="programs">
+        <div class="program-card">
+            <img src="img/hsc.jpg" alt="Program Image">
+            <h3>মেডিকেল + ভার্সিটি </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+
+        <div class="program-card">
+            <img src="img/ss.jpg" alt="Program Image">
+            <h3>ইঞ্জিনিয়ারিং + Biology </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+        <div class="program-card">
+            <img src="img/book.jpeg" alt="Program Image">
+            <h3>ভার্সিটি ক’ & গুচ্ছ </h3>
+            <p>
+                মেধাবী ও অভিজ্ঞ শিক্ষক দ্বারা ক্লাস<br>
+                লাইভ ম্যারাথন ক্লাস<br>
+                প্রব্যাক্টিক্যাল মাস্টার ক্লাস ও কুইজ<br>
+                পরবর্তী সংখ্যাক স্টাডি মেটেরিয়ালস<br>
+                ডাউট সলভিংয়ে সার্বক্ষনিক Q & A সেবা
+            </p>
+            <div class="buttons">
+                <button class="offline-btn">Offline</button>
+                <button class="online-btn">Online/Combo</button>
+            </div>
+        </div>
+    </section>
+
+    
+<!-- Featured Books -->
+    <section class="featured-books">
+        <h2>ফিচার বই</h2>
+        <div class="book-slider">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="books">
+                <div class="book">
+                    <img src="img/Book (1).jpg" alt="Book 1">
+                    <h3>তথ্য ও যোগাযোগ</h3>
+                    <p>৳460.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Book (2).jpg" alt="Book 2">
+                    <h3>হিসাববিজ্ঞান (প্রথম পত্র)</h3>
+                    <p>৳330.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Book (3).jpg" alt="Book 3">
+                    <h3>উচ্চতর-গণিত (সমাধানসহ)</h3>
+                    <p>৳460.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Book (4).jpg" alt="Book 4">
+                    <h3>পদার্থবিজ্ঞান-২য় পত্র (সমাধানসহ)</h3>
+                    <p>৳620.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Book (4).jpg" alt="Book 4">
+                    <h3>পদার্থবিজ্ঞান-২য় পত্র (সমাধানসহ)</h3>
+                    <p>৳620.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Book (4).jpg" alt="Book 4">
+                    <h3>পদার্থবিজ্ঞান-২য় পত্র (সমাধানসহ)</h3>
+                    <p>৳620.00</p>
+                </div>
+            </div>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+
+<!-- Featured Books -->
+    <section class="featured-books">
+        <h2>সর্বশেষ বই</h2>
+        <div class="book-slider">
+            <button class="prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="books">
+                <div class="book">
+                    <img src="img/Books (1).jpg" alt="Book 1">
+                    <h3>তথ্য ও যোগাযোগ</h3>
+                    <p>৳460.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Books (2).jpg" alt="Book 2">
+                    <h3>হিসাববিজ্ঞান (প্রথম পত্র)</h3>
+                    <p>৳330.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Books (3).jpg" alt="Book 3">
+                    <h3>উচ্চতর-গণিত (সমাধানসহ)</h3>
+                    <p>৳460.00</p>
+                </div>
+                <div class="book">
+                    <img src="img/Books (4).jpg" alt="Book 4">
+                    <h3>পদার্থবিজ্ঞান-২য় পত্র (সমাধানসহ)</h3>
+                    <p>৳620.00</p>
+                </div>
+            </div>
+            <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+    
+<!-- branches-section -->
+
+
+    <div class="branches-section">
+        <h2>শাখাসমূহ</h2>
+        <input type="text" id="searchBox" placeholder="Search..." onkeyup="searchTable()">
+        <div class="table-wrapper">
+            <table id="branchesTable" class="branches-table">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Coaching</th>
+                        <th>Branch Code</th>
+                        <th>Address</th>
+                        <th>Mobile Number</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>কনকুয়েস্ট কোচিং</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>ক্যারিয়ার এইড কোচিং</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>rrrrr</td>
+                        <td>ww</td>
+                        <td>ww</td>
+                        <td></td>
+                        <td><button class="view-details">View Details</button></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        <div class="pagination">
+            <button id="prevBtn" onclick="prevPage()">Previous</button>
+            <button id="nextBtn" onclick="nextPage()">Next</button>
+        </div>
+    </div>
+
+
+    <div class="teacher-section">
+        <h2>শিক্ষকসমূহ</h2>
+        <div class="teachers-wrapper">
+            <div class="teacher-card">
+                <img src="img/teacher.jpg" alt="John Doe">
+                <h3>John Doe</h3>
+                <p>Mathematics</p>
+            </div>
+            <div class="teacher-card">
+                <img src="img/teacher.jpg" alt="Jane Smith">
+                <h3>Jane Smith</h3>
+                <p>English Literature</p>
+            </div>
+            <div class="teacher-card">
+                <img src="img/teacher.jpg" alt="Michael Johnson">
+                <h3>Michael Johnson</h3>
+                <p>Science</p>
+            </div>
+            <div class="teacher-card">
+                <img src="img/teacher.jpg" alt="Emily Davis">
+                <h3>Emily Davis</h3>
+                <p>History</p>
+            </div>
+            <div class="teacher-card">
+                <img src="img/teacher.jpg" alt="Emily Davis">
+                <h3>Emily Davis</h3>
+                <p>History</p>
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    
+        <div class="pagination">
+            <button id="prevBtn" disabled>Previous</button>
+            <button id="nextBtn">Next</button>
+        </div>
+    </div>
+    
+
+    <section class="achievements-section">
+        <h2>আমাদের প্রাপ্তিসমূহ</h2>
+        <div class="achievement-cards">
+            <div class="achievement-card">
+                <div class="icon">
+                    <i class="fas fa-book"></i>
+                </div>
+                <h3>1500+</h3>
+                <p>আমাদের মূল্যবান বই</p>
+            </div>
+            <div class="achievement-card">
+                <div class="icon">
+                    <i class="fas fa-user-graduate"></i>
+                </div>
+                <h3>500000+</h3>
+                <p>ছাত্র আমরা পরিবেশন</p>
+            </div>
+            <div class="achievement-card">
+                <div class="icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <h3>10000+</h3>
+                <p>শিক্ষক আমরা পরামর্শ</p>
+            </div>
+            <div class="achievement-card">
+                <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <h3>40+</h3>
+                <p>বছরের অভিজ্ঞতা আমাদের আছে</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="news-events-section">
+        <h2>খবর এবং ঘটনা</h2>
+        <div class="news-events-cards">
+            <div class="news-event-card">
+                <div class="news-event-image">
+                    <img src="img/event.jpg" alt="News Event 1">
+                </div>
+                <div class="news-event-content">
+                    <h3>Event Title 1</h3>
+                    <p>Short description about the event or news. This text should be concise and engaging.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-event-card">
+                <div class="news-event-image">
+                    <img src="img/event.jpg" alt="News Event 2">
+                </div>
+                <div class="news-event-content">
+                    <h3>Event Title 2</h3>
+                    <p>Short description about the event or news. This text should be concise and engaging.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-event-card">
+                <div class="news-event-image">
+                    <img src="img/event.jpg" alt="News Event 3">
+                </div>
+                <div class="news-event-content">
+                    <h3>Event Title 3</h3>
+                    <p>Short description about the event or news. This text should be concise and engaging.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="news-event-card">
+                <div class="news-event-image">
+                    <img src="img/event.jpg" alt="News Event 3">
+                </div>
+                <div class="news-event-content">
+                    <h3>Event Title 3</h3>
+                    <p>Short description about the event or news. This text should be concise and engaging.</p>
+                    <a href="#" class="read-more">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="notice-section">
+        <div class="notice_container">
+            <h2>সর্বশেষ বিজ্ঞপ্তি</h2>
+            <div class="notice-cards">
+                <div class="card">
+                    <h3>Notice Title 1</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <a href="#">Read more</a></p>
+                    <span class="date">Date: 01/09/2024</span>
+                </div>
+                <div class="card">
+                    <h3>Notice Title 2</h3>
+                    <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <a href="#">Read more</a></p>
+                    <span class="date">Date: 25/08/2024</span>
+                </div>
+                <div class="card">
+                    <h3>Notice Title 3</h3>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco. <a href="#">Read more</a></p>
+                    <span class="date">Date: 18/08/2024</span>
+                </div>
+                <div class="card">
+                    <h3>Notice Title 4</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit. <a href="#">Read more</a></p>
+                    <span class="date">Date: 10/08/2024</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    
+
+
+    <section class="courses-section">
+        <h2>Courses</h2>
+        <div class="course-grid">
+            <div class="course-card">
+                <img src="img/class.jpg" alt="Course Image 1">
+                <h3 class="cls_h3">Class:3 - Class:8</h3>
+                <div class="tags">
+                    <span>All Subject</span>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="img/class.jpg" alt="Course Image 2">
+                <h3 class="cls_h3">Class : 9</h3>
+                <div class="tags">
+                    <span>Science</span>
+                    <span>Arts</span>
+                    <span>Commerce</span>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="img/class.jpg" alt="Course Image 3">
+                <h3 class="cls_h3">Class : 10</h3>
+                <div class="tags">
+                    <span>Science</span>
+                    <span>Arts</span>
+                    <span>Commerce</span>
+                </div>
+            </div>
+            <div class="course-card">
+                <img src="img/class.jpg" alt="Course Image 4">
+                <h3 class="cls_h3">SSC</h3>
+                <div class="tags">
+                    <span>Science</span>
+                    <span>Arts</span>
+                    <span>Commerce</span>
+                </div>
+            </div>
+            <!-- Additional cards can be added similarly -->
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-about">
+                <img src="img/foot_logo.png" alt="Education Platform Logo" class="footer-logo">
+                <p>We are a leading education platform offering comprehensive resources for students and educators. Our mission is to enhance learning experiences and make education accessible for everyone.</p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@educationplatform.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Learning St, Education City</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 Education Platform. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
